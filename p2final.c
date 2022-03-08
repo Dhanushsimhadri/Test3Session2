@@ -3,7 +3,7 @@ struct_fraction()
 {
   int num,den;
 }
-typedef struct_fraction Fraction;
+typedef struct_fraction Fraction()
 Fraction input_fraction()
 {
   Fraction f;
