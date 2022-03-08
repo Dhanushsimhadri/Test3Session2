@@ -3,7 +3,7 @@ typedef struct _fraction
 {
     int num,den;
 }F;
-F input_fraction()
+ F input_fraction()
 {
     F f;
     printf("enter num,den \n ");
