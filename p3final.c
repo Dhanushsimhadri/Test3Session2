@@ -15,10 +15,10 @@ int input()
   return n;
 }
 
-int isprime(int n)
+int is_prime(int n)
 {
   if (n==0 || n==1) {
-    return 0
+    return 0;
   }
   if (n==2) {
     return 1;
@@ -35,14 +35,13 @@ void output(int n, int isp)
   if(isp == 0)
     printf("%d is not a prime number\n",n);
   else
-    printf("%d is a prime number\n",n)
+    printf("%d is a prime number\n",n);
 }
 
 int main()
 {
   int n = input();
-  int isp = isprime(n);
+  int isp = is_prime(n);
   output(n,isp);
   return 0;
-  }
 }

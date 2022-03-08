@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int input()
 {
   int n;
@@ -19,8 +18,6 @@ int find_fibo(int n)
   }
   return fibo;
 }
-
-
 void output(int n, int fibo)
 {
   printf("the %dth fibonacci number is %d\n", n, fibo);
